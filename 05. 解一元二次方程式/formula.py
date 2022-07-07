@@ -2,7 +2,7 @@ import math
 a, b, c = list(map(int,input().split()))
 
 def quadratic(a,b,c):
-    key = (b ** 2) - (4 * a * c)
+    key = (b ** 2) - (4 * a * c) # 計算判別式
     if key > 0: # key > 0 有兩根
         x1 = (-b + math.sqrt(key)) / (2 * a)
         x2 = (-b - math.sqrt(key)) / (2 * a)
