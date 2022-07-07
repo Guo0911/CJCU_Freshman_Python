@@ -1,7 +1,7 @@
 print(int(input()) ** 2)
 
 """
-請注意不可使用 「int(input()) ** int(input())」
+請注意不可使用 「int(input()) * int(input())」
 
 在程式語言中每次的 input 都會需要輸入數值，因此使用 「int(input()) ** int(input())」 會需要輸入兩次數值
 
